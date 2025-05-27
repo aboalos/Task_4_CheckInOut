@@ -11,12 +11,11 @@ var sup1 = Supervisor(name: "Mr. Ahmad", id: 101);
 
 system.addemployee(emp1);
 system.addemployee(emp2);
-system.addvisor(sup1);
+//system.addvisor(sup1);
 
 system.assignEmployee(sup1, emp1);
 system.assignEmployee(sup1, emp2);
 
-system.CheckinOut(emp1);
-
+system.CheckinOut(1,"7AM","Osama","5PM");
 system.Showallemp(sup1);
 }
